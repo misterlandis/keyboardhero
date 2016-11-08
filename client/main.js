@@ -20,3 +20,12 @@ $("body").keypress(function(event){
 	$(".typed-text").append("<span class = '" + correctness + "'>" + event.key + "</span>");
 	//console.log(event);
 });
+
+$(document).ready(function(){
+	$.get("/lessons.txt", "", function(results){
+		$(".lesson-text").html(results);
+		console.log("ajax worked");
+		console.log(results);
+	});
+
+});
