@@ -849,22 +849,24 @@ there.
 
 /* Landis' stuff
 -----------------------------------------------------*/
-.red{
-	background-color:red;
+.initiallyHidden { display: none; }
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
 }
 
 .lesson{
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 3rem;
 	border: 4rm;
 	border-style: solid;
 	border-radius:15px;
-	padding: 10px;
-}
-
-.typed-text{
-	position: absolute;
-	top: 0;
-	left: 0;
 	padding: 10px;
 }
 
