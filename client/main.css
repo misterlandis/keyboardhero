@@ -849,6 +849,30 @@ there.
 
 /* Landis' stuff
 -----------------------------------------------------*/
+
+.modal {
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	z-index:1;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	
+	overflow: auto;
+}
+
+.menu{
+	background-color:#fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 4rm solid #888;
+	border-radius: 15px;
+	width: 80%
+	
+}
+
 .initiallyHidden { display: none; }
 
 .noselect {
